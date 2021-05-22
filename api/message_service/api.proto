@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package message_service;
+
+option go_package = "github.com/grozauf/message_service/pkg/message_service";
+
+message RequestMS {
+	string text = 1;
+	string subtext = 2;
+}
+
+message ResponseMS {
+	string text = 1;
+	string subtext = 2;
+}
+
+service MessageService {
+	rpc SayIt (RequestMS) returns (ResponseMS);
+}
