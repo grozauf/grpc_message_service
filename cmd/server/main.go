@@ -25,6 +25,7 @@ func (MessageServer) SayIt(ctx context.Context, r *p.RequestMS) (*p.ResponseMS, 
 }
 
 func main() {
+	fmt.Println("version 0.2.0 in new repository")
 	server := grpc.NewServer()
 	var messageServer MessageServer
 	p.RegisterMessageServiceServer(server, messageServer)
