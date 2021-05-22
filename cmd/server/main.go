@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	p "github.com/grozauf/message_service/pkg/message_service"
+	p "github.com/grozauf/grpc_message_service/pkg/message_service"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"net"

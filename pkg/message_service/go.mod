@@ -1,4 +1,4 @@
-module github.com/grozauf/message_service/pkg/message_service
+module github.com/grozauf/grpc_message_service/pkg/message_service
 
 go 1.16
 

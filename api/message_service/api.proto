@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package message_service;
 
-option go_package = "github.com/grozauf/message_service/pkg/message_service";
+option go_package = "github.com/grozauf/grpc_message_service/pkg/message_service";
 
 message RequestMS {
 	string text = 1;
